@@ -24,26 +24,4 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#fp-nav ul li a span,
-.fp-slidesNav ul li a span {
-  background: white;
-}
-
-#header1{
-  position:fixed;
-  display:block;
-  width: 100%;
-  z-index:9;
-  padding: 0 0 0 0;
-  top:0px;
-}
-
 </style>
