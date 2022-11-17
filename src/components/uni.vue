@@ -17,6 +17,7 @@
       </b-navbar>
       -->
       <full-page ref="fullpage" :options="options" id="fullpage">
+        <!--메인-->
         <div class="section">
           <!--<b-button class="next" @click="$refs.fullpage.api.moveSectionDown()">Next</b-button>-->
           <div style="align: Center; text-align: left; margin-left: 10px; margin-top: 70px;">
@@ -43,18 +44,25 @@
                     <h4 :style="{ color: page1aboutColor, fontSize: page2Colfontsize + 'px' }">010-9962-1729</h4>
                   </b-col>
                   <b-col>
-                    <b-img src="../assets/p_signs.png"></b-img>
+                    <b-img src="@/assets/p_signs.png"></b-img>
                   </b-col>
                 </div>
               </b-row>
             </b-container>
           </div>
         </div>
+
+        <!--인적 사항-->
         <div class="section">
           <!--<b-button class="next" @click="$refs.fullpage.api.moveSectionDown()">Next</b-button>-->
-          <!--인적 사항-->
-          <div style=" text-align: left; margin-left: 10px; margin-top: 100px;">
+
+          <div style=" text-align: left; margin-left: 10px; ">
             <b-container class="bv-example-row">
+              <b-row>
+                <div style="margin-top: 50px; margin-bottom: 40px;">
+                  <p style=" fontSize: 50px;">LIKE A DIAMOND👨‍💻</p>
+                </div>
+              </b-row>
               <b-row style="margin-bottom: 5px;">
                 <b-col cols="2" style="margin-right: 60px;">
                   <!--<b-img src="images1[0].profileUrl" fluid alt="Responsive image"></b-img>-->
@@ -63,7 +71,7 @@
                     <p style="fontSize: 13px; margin-top: 10px;">최고를 위해 항상 최선을 다하는 사람<br>최선을 위해 항상 최고가 되려는 사람</p>
                     <p style=" fontSize: 30px;">양승범 입니다</p>
                     <div style="align: left">
-                    <hr color="black" size="100px" width="40px">
+                      <hr color="black" size="100px" width="40px">
                     </div>
                     <p>긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글</p>
                   </b-row>
@@ -73,40 +81,55 @@
                   <div>
                     <h4 :style="{ color: page2ColColor, fontSize: page2Colfontsize + 'px' }">ABOUT_ME</h4>
                     <div style="margin-top: 20px;" :style="{fontSize: page2aboutfontsize + 'px' }">
-                      <p>양승범</p>
-                      <p> 010 - 9962 - 1729</p>
-                      <p>1993. 10. 29.</p>
-                      <p>경기도 안양시 거주</p>
-                      <p>didtmdqja47@naver.com</p>
+                      <p>양승범<br>1993.10.29<br>경기도 안양시 거주<br> 010 - 9962 - 1729<br>didtmdqja47@naver.com</p>
+
                     </div>
                   </div>
-                  <div style="margin-top: 100px;">
+                  <div style="margin-top: 20px;">
                     <h4 :style="{ color: page2ColColor, fontSize: page2Colfontsize + 'px' }">EDUCATION</h4>
                     <div style="margin-top: 20px;" :style="{fontSize: page2aboutfontsize + 'px' }">
-                      <p>긴글이 필요하니깐 아무거나 적을께요 에이아라이아디아이어차!</p>
-                      <p>긴글이 필요하니깐 아무거나 적을께요 에이아라이아디아이어차!</p>
-                      <p>긴글이 필요하니깐 아무거나 적을께요 에이아라이아디아이어차!</p>
+                      <p>2017.08 ~ 2018.02 (주)구트아카데미 개발자 양성과정 수료</p>
+                      <p>2016.09 ~ 2018.02 한신대학교 DB Net 연구실 소속</p>
+                      <p>2012.03 ~ 2018.02 한신대학교 졸업</p>
+                      <p>2009.02 ~ 2012.02 안양부흥고등학교 졸업</p>
                     </div>
                   </div>
+                  <div style="margin-top: 20px;">
+                    <h4 :style="{ color: page2ColColor, fontSize: page2Colfontsize + 'px' }">CAREER</h4>
+                    <div style="margin-top: 20px;" :style="{color: page2aboutColor , fontSize: page2aboutfontsize + 'px' }">
+                      <p>2018.03 ~ 2019.11 (주) 뷰온 개발1팀 / 사원 / 2년차</p>
+                      <p>2020.04 ~ 현재재직 에이프로젠제약(넥스코닉스) / 사원</p>
+                    </div>
+                  </div>
+
                 </b-col>
 
                 <b-col cols="4">
-                  <div>
-                    <h4 :style="{ color: page2ColColor, fontSize: page2Colfontsize + 'px' }">CAREER</h4>
-                    <div style="margin-top: 20px;" :style="{color: page2aboutColor , fontSize: page2aboutfontsize + 'px' }">
-                      <p>긴글이 필요하니깐 아무거나 적을께요 에이아라이아디아이어차!</p>
-                      <p>긴글이 필요하니깐 아무거나 적을께요 에이아라이아디아이어차!</p>
-                      <p>긴글이 필요하니깐 아무거나 적을께요 에이아라이아디아이어차!</p>
+                  <div style="margin-top: 20px;">
+                    <h4 :style="{ color: page2ColColor, fontSize: page2Colfontsize + 'px' }">PROJECT</h4>
+                    <div style="margin-top: 20px;" :style="{fontSize: page2aboutfontsize + 'px' }">
+                      <p>2017.08 ~ 2018.02 (주)구트아카데미 개발자 양성과정 수료</p>
+                      <p>2016.09 ~ 2018.02 한신대학교 DB Net 연구실 소속</p>
+                      <p>2012.03 ~ 2018.02 한신대학교 졸업</p>
+                      <p>2009.02 ~ 2012.02 안양부흥고등학교 졸업</p>
                     </div>
                   </div>
-                  <div style="margin-top: 100px;">
+
+                  <div style="margin-top: 15px;">
                     <h4 :style="{ color: page2ColColor, fontSize: page2Colfontsize + 'px' }">SKILL</h4>
                     <div style="margin-top: 20px;" :style="{fontSize: page2aboutfontsize + 'px' }">
-                      <p>양승범</p>
-                      <p> 010 - 9962 - 1729</p>
-                      <p>1993. 10. 29.</p>
-                      <p>경기도 안양시 거주</p>
-                      <p>didtmdqja47@naver.com</p>
+                      <b-progress :value="85" variant="info" striped :animated="animate" class="mt-2"></b-progress>
+                      <p>Android(JAVA)</p>
+                      <b-progress :value="75" variant="info" striped :animated="animate" class="mt-2"></b-progress>
+                      <p>SQL(DB)</p>
+                      <b-progress :value="50" variant="info" striped :animated="animate" class="mt-2"></b-progress>
+                      <p>Vue.js</p>
+                      <b-progress :value="70" variant="info" striped :animated="animate" class="mt-2"></b-progress>
+                      <p>HTML/CSS/JavaScript</p>
+                      <b-progress :value="80" variant="info" striped :animated="animate" class="mt-2"></b-progress>
+                      <p>Linux</p>
+                      <b-progress :value="100" variant="info" striped :animated="animate" class="mt-2"></b-progress>
+                      <p>Labview</p>
                     </div>
                   </div>
                 </b-col>
@@ -115,6 +138,19 @@
           </div>
 
         </div>
+        <!--포트폴리오 1-1 2차전지 사이트-->
+        <div class="section">
+        </div>
+        <!--포트폴리오 1-2 2차전지 사이트-->
+        <div class="section">
+        </div>
+        <!--포트폴리오 2-1 2차전지 검사기-->
+        <div class="section">
+        </div>
+        <!--포트폴리오 2-2 2차전지 검사기-->
+        <div class="section">
+        </div>
+
 
       </full-page>
     </template>
@@ -138,6 +174,7 @@ export default {
       page2ColColor: '#406882',
       page2aboutColor: '#000000',
       page1aboutColor: '#FFFFFF',
+      animate: true,
       options: {
         menu: '#menu',
         anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
