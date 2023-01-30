@@ -27,6 +27,7 @@
                   <div>
                     <h1 style="margin-bottom: 20px; text-align: left;">최선을 다하는 </h1>
                     <h1 style="margin-bottom: 20px; text-align: left;">개발자 양승범 입니다.</h1>
+
                   </div>
                 </b-col>
               </b-row>
@@ -44,7 +45,7 @@
                     <h4 :style="{ color: page1aboutColor, fontSize: page2Colfontsize + 'px' }">010-9962-1729</h4>
                   </b-col>
                   <b-col>
-                    <b-img src="@/assets/p_signs.png"></b-img>
+                    <b-img src="../static/p_signs.png" rounded fluid alt="Responsive image"></b-img>
                   </b-col>
                 </div>
               </b-row>
@@ -73,7 +74,7 @@
                     <div style="align: left">
                       <hr color="black" size="100px" width="40px">
                     </div>
-                    <p>긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글긴글</p>
+                    <p>모든 것은 사람이 만든다고 생각합니다. 제가 부족한것들은 배워나가고, 제가 알고 있는 것은 베풀면서 살아가길 원합니다. 모든것이 합력해서 선을 이루길</p>
                   </b-row>
                 </b-col>
 
@@ -105,13 +106,16 @@
                 </b-col>
 
                 <b-col cols="4">
-                  <div style="margin-top: 20px;">
+                  <div style="margin-top: 10px;">
                     <h4 :style="{ color: page2ColColor, fontSize: page2Colfontsize + 'px' }">PROJECT</h4>
                     <div style="margin-top: 20px;" :style="{fontSize: page2aboutfontsize + 'px' }">
-                      <p>2017.08 ~ 2018.02 (주)구트아카데미 개발자 양성과정 수료</p>
-                      <p>2016.09 ~ 2018.02 한신대학교 DB Net 연구실 소속</p>
-                      <p>2012.03 ~ 2018.02 한신대학교 졸업</p>
-                      <p>2009.02 ~ 2012.02 안양부흥고등학교 졸업</p>
+                      <p>2022.01 ~ 2023.01 Tomcat Server, Redmine Server 구축(linux)</p>
+                      <p>2020.11 ~ 2021.01 서버 소켓 통신 확인 프로그램(JAVA)</p>
+                      <p>2020.07 ~ 2020.11 ERP 자산관리 QR코드 모바일 Aplication(JAVA)</p>
+                      <p>2012.03 ~ 2018.02 L사 2차전지 Review Web Page(JavaScript)</p>
+                      <p>2018.03 ~ 2019.11 L사 2차전지 Vision Program</p>
+                      <p>2018.03 ~ 2019.11 S사 반도체 검사 Vision Program</p>
+                      <p>(대학졸업작품) 크롤링을 이용한 콘텐츠 매니져 프로그램</p>
                     </div>
                   </div>
 
@@ -138,12 +142,97 @@
           </div>
 
         </div>
-        <!--포트폴리오 1-1 2차전지 사이트-->
+        <!--포트폴리오 2-1 2차전지 사이트-->
         <div class="section">
+          <div style="align: Center; text-align: left; margin-left: 10px; margin-top: 70px;">
+            <b-container class="bv-example-row">
+              <b-row style="margin-bottom: 20px;">
+                <b-col>
+                  <div>
+                    <h1 style="margin-bottom: 10px; text-align: left;">L사 2차전지 Review Web Page</h1>
+                  </div>
+                </b-col>
+              </b-row>
+              <b-row>
+                <b-col>
+                  <div>
+                    <h4 :style="{ color: page2ColColor, fontSize: page2Colfontsize + 'px' }">vue.js 를 이용하여, Vision Machine 에서 나온 데이터를 웹페이지로 시각화 하였습니다. </h4>
+                    <h4 :style="{ color: page2ColColor, fontSize: page2Colfontsize + 'px' }">데이터는 차트로 표현하였으며 chart.js를 이용하였습니다.</h4>
+                  </div>
+                </b-col>
+              </b-row>
+              <b-row>
+                <b-col>
+                    <div>
+
+                    </div>
+                </b-col>
+              </b-row>
+              <b-row>
+                <div style="margin-top: 20px;">
+                  <b-col>
+                    <h4 :style="{ color: page2ColColor, fontSize: page2Colfontsize + 'px' }">Language / Framework</h4>
+                    <h4 :style="{ color: page1aboutColor, fontSize: page2Colfontsize + 'px' }">JavaScript / HTML5 / CSS / Vue.js / Chart.js </h4>
+                  </b-col>
+
+                </div>
+              </b-row>
+              <b-row>
+                <div style="margin-top: 0px;">
+                  <b-col>
+                    <h4 :style="{ color: page2ColColor, fontSize: page2Colfontsize + 'px' }">SKILL / Library </h4>
+                    <h4 :style="{ color: page1aboutColor, fontSize: page2Colfontsize + 'px' }">Data Visualization / Bootstrap / Chart.js </h4>
+                  </b-col>
+                </div>
+              </b-row>
+            </b-container>
+          </div>
+
         </div>
-        <!--포트폴리오 1-2 2차전지 사이트-->
+        <!--포트폴리오 1-1 server socket 사이트-->
         <div class="section">
+
+          <div style="align: Center; text-align: left; margin-left: 10px; margin-top: 70px;">
+            <b-container class="bv-example-row">
+              <b-row style="margin-bottom: 20px;">
+                <b-col>
+                  <div>
+                    <h1 style="margin-bottom: 20px; text-align: left;">Server Socket 통신 확인 프로그램</h1>
+                  </div>
+                </b-col>
+              </b-row>
+              <b-row>
+                <b-col>
+                  <div>
+                    <h4 :style="{ color: page2ColColor, fontSize: page2Colfontsize + 'px' }">소켓 통신을 통해 사내망 서버가 정상적으로 작동하고 있는지 확인하는 모바일 어플리케이션으로,</h4>
+                    <h4 :style="{ color: page2ColColor, fontSize: page2Colfontsize + 'px' }">백그라운드에서 작동하여 확인이 가능한 소프트웨어 입니다. 단독 개발하였습니다.</h4>
+                  </div>
+                </b-col>
+              </b-row>
+              <b-row>
+                <div style="margin-top: 20px;">
+                  <b-col>
+                    <h4 :style="{ color: page2ColColor, fontSize: page2Colfontsize + 'px' }">Language</h4>
+                    <h4 :style="{ color: page1aboutColor, fontSize: page2Colfontsize + 'px' }">JAVA / PHP / Android </h4>
+                  </b-col>
+                  <b-col>
+                  </b-col>
+                </div>
+              </b-row>
+              <b-row>
+                <div style="margin-top: 0px;">
+                  <b-col>
+                    <h4 :style="{ color: page2ColColor, fontSize: page2Colfontsize + 'px' }">SKILL</h4>
+                    <h4 :style="{ color: page1aboutColor, fontSize: page2Colfontsize + 'px' }">Network Communication / Cookie Handling</h4>
+                  </b-col>
+                  <b-col>
+                  </b-col>
+                </div>
+              </b-row>
+            </b-container>
+          </div>
         </div>
+
         <!--포트폴리오 2-1 2차전지 검사기-->
         <div class="section">
         </div>
@@ -159,7 +248,12 @@
 </template>
 
 <script>
+import TextAnime1 from './anim01'
+
 export default {
+  components: {
+    TextAnime1
+  },
   data() {
     return {
       mainProps: {
@@ -178,16 +272,14 @@ export default {
       options: {
         menu: '#menu',
         anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
-        sectionsColor: ['#000000', '#FFFFFF', '#6998AB', '#B1D0E0', '#3A6351'],
+        sectionsColor: ['#000000', '#FFFFFF', '#B1D0E0', '#B1D0E0', '#B1D0E0', '#B1D0E0', '#B1D0E0'],
         navigation: true,
         slidesNavigation: true,
         controlArrows: false,
         navigationTooltips: ['Main', 'AboutMe', 'Viewon Company', 'Aprogen Compnay', 'Contact'],
         css3: true
       },
-      images1: [{
-        profileUrl: "https://ifh.cc/g/TZ1GMH.jpg"
-      }],
+      images1: [],
       prohsList: [{
           id: 1,
           modal: 'modal-1',
